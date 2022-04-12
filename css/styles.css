@@ -47,10 +47,28 @@ ul {
     background-color: var(--accent-color);
     color: #FFFFFF
 }
-/* Секция приемущесва */
+/* Секция Приемущесва */
 .section-title {
     color: var(--title-text-color);
 }
 .feature-list .title {
     color: var(--title-text-color);
+}
+/* Секция Чем мы занимаемся */
+.work-list {
+
+}
+/* Секция Наша команда */
+.people-list .title {
+    color: var(--title-text-color);
+}
+/* Подвал */
+footer {
+    background-color: var(--dark-background-color);
+}
+address {
+    color: #FFFFFF;
+}
+address a {
+    color: rgba(255, 255, 255, 0.6);
 }
