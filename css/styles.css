@@ -1,0 +1,56 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --dark-background-color: #2F303A;
+}
+
+
+
+.page {
+background-color: #FFFFFF;
+color: var(--primary-text-color)
+}
+ul {
+    list-style: none;
+}
+/* site-nav */
+.logo {
+    color: black;
+}
+.logo-web {
+    color: var(--accent-color);
+}
+.site-nav a {
+    color: var(--title-text-color);
+}
+.site-nav a:hover,
+.site-nav a:focus {
+    color: var(--accent-color);
+}
+.contacts a {
+    color: rgba(117, 117, 117, 1);
+}
+.contacts a:hover,
+.contacts a:focus {
+    color: var(--accent-color);
+}
+/* Секция Герой */
+.hero {
+    background-color: var(--dark-background-color);
+    color: #FFFFFF;
+}
+.hero-title {
+
+}
+.hero-button {
+    background-color: var(--accent-color);
+    color: #FFFFFF
+}
+/* Секция приемущесва */
+.section-title {
+    color: var(--title-text-color);
+}
+.feature-list .title {
+    color: var(--title-text-color);
+}
