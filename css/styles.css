@@ -2,7 +2,9 @@
     --primary-text-color: #757575;
     --title-text-color: #212121;
     --accent-color: #2196F3;
-    --dark-background-color: #2F303A;
+    --accent-background-color: #2F303A;
+    --primary-bg-color: #FFFFFF;
+    --second-bg-color: #F5F4FA;
 }
 
 
@@ -37,16 +39,10 @@ ul {
 }
 /* Секция Герой */
 .hero {
-    background-color: var(--dark-background-color);
+    background-color: var(--accent-background-color);
     color: #FFFFFF;
 }
-.hero-title {
 
-}
-.hero-button {
-    background-color: var(--accent-color);
-    color: #FFFFFF
-}
 /* Секция Приемущесва */
 .section-title {
     color: var(--title-text-color);
@@ -59,16 +55,42 @@ ul {
 
 }
 /* Секция Наша команда */
+.section.people {
+    background-color: var(--second-bg-color);
+}
 .people-list .title {
     color: var(--title-text-color);
 }
 /* Подвал */
 footer {
-    background-color: var(--dark-background-color);
+    background-color: var(--accent-background-color);
 }
 address {
     color: #FFFFFF;
 }
 address a {
     color: rgba(255, 255, 255, 0.6);
+}
+a{
+    text-decoration: none;
+}
+
+/* Button */
+.button {
+    color: #000;
+    background-color: #fff;
+    text-decoration: none;
+}
+.button.primary  {
+    color: var(--primary-bg-color);
+    background-color: var(--accent-color)
+}
+.button.secondary {
+    color: var(--title-text-color);
+    background-color: var(--second-bg-color);
+}
+.button.secondary:hover,
+.button.secondary:focus {
+    color: var(--primary-bg-color);
+    background-color: var(--accent-color);
 }
