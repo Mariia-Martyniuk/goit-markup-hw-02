@@ -14,7 +14,7 @@ color: var(--primary-text-color);
 font-family: 'Roboto',sans-serif;
 }
 
-/* Навигация */
+/* Navigation */
 .logo {
     color: black;
     text-decoration: none;
@@ -25,31 +25,38 @@ font-family: 'Roboto',sans-serif;
     line-height: 1.2;
     letter-spacing: 0.03em;
 }
+
 .logo-web {
     color: var(--accent-color);
 }
+
 .site-nav {
     list-style: none;
 }
+
 .site-nav .link {
-    color: var(--title-text-color);
-    
+    color: var(--title-text-color); 
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
+
 .site-nav .link:hover,
 .site-nav .link:focus {
     color: var(--accent-color);
 }
+
 .site-nav .link.current{
     color: var(--accent-color);
     text-decoration: none;
 }
+
 .link {
     text-decoration: none;
 }
+
+/* Contacts */
 .contacts {
     list-style: none;
 
@@ -58,18 +65,22 @@ font-family: 'Roboto',sans-serif;
     line-height: 16px;
     letter-spacing: 0.02em;
 }
+
 .contacts .link {
     color: rgba(117, 117, 117, 1);
 }
+
 .contacts .link:hover,
 .contacts .link:focus {
     color: var(--accent-color);
 }
-/* Секция Герой */
+
+/* Section Hero */
 .hero {
     background-color: var(--accent-background-color);
     color: #FFFFFF;
 }
+
 .hero-title {
     font-weight: 900;
     font-size: 44px;
@@ -78,6 +89,7 @@ font-family: 'Roboto',sans-serif;
     letter-spacing: 0.06em;
     text-transform: uppercase;
 }
+
 .hero-button {
     color: var(--primary-bg-color);
     background-color: var(--accent-color);
@@ -89,7 +101,8 @@ font-family: 'Roboto',sans-serif;
     line-height: 1.88;
     letter-spacing: 0.06em;
 }
-/* Секция Приемущесва */
+
+/* Section Features */
 .section-title {
     color: var(--title-text-color);
 
@@ -99,38 +112,46 @@ font-family: 'Roboto',sans-serif;
     text-align: center;
     letter-spacing: 0.03em;
 }
+
 .section.title {
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.03em 
 }
+
 .feature-list {
     list-style: none;
 }
+
 .feature-list .title {
     color: var(--title-text-color);
     text-transform: uppercase;
 }
-/* Секция Чем мы занимаемся */
+
+/* Section What we do */
 .work-list {
     list-style: none;
 }
-/* Секция Наша команда */
-.section.people {
+
+/* Section Our team */
+.section.team {
     background-color: var(--second-bg-color);
 }
-.people-list {
+
+.team-list {
     list-style: none;
 }
 
-.people-list .title {
+.team-list .title {
     color: var(--title-text-color);
 }
-/* Подвал */
+
+/* Footer */
 footer {
     background-color: var(--accent-background-color);
 }
+
 .address {
     color: #FFFFFF;
 
@@ -140,14 +161,17 @@ footer {
     line-height: 1.7;
     letter-spacing: 0.03em;
 }
+
 .address .link{
     color: rgba(255, 255, 255, 0.6);
 }
+
 .address .link:hover,
 .address .link:focus {
     color:var(--accent-color)
 }
-/* Секция Фильтр */
+
+/* Section Filter */
 .filter-list {
     list-style: none;
     font-weight: 500;
@@ -156,22 +180,26 @@ footer {
     text-align: center;
     letter-spacing: 0.03em;
 }
+
 /* Button */
 .button {
     color: var(--title-text-color);
     background-color: var(--second-bg-color); 
     cursor:pointer;
 }
+
 .button:hover,
 .button:focus {
     color: var(--primary-bg-color);
     background-color: var(--accent-color);
 }
-/* Секция Примеры работ */
+
+/* Section Examples */
 .example-list {
     font-family: inherit;
     list-style: none;
 }
+
 .example-title {
     color: var(--title-text-color);
     font-style: normal;
@@ -180,6 +208,7 @@ footer {
     line-height: 2;
     letter-spacing: 0.06em;
 }
+
 .filter-text {
     color: var(--primary-text-color);
 }
